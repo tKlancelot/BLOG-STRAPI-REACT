@@ -1,0 +1,9 @@
+.single-post{
+    &__comments{
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:0.5vw;
+        }
+    }
+}

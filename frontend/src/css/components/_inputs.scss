@@ -1,0 +1,24 @@
+input,textarea,::placeholder{
+    font-family: $font-primary-light;
+}
+
+input,textarea{
+    border:1px solid gainsboro;
+}
+
+input[type=submit]{
+    cursor: pointer;
+}
+
+.single-post{
+    .form{
+        &__row{
+            display: flex;
+            textarea,input{
+                width: 100%;
+                padding: 0.5rem;
+                resize: none;
+            }
+        }
+    }
+}

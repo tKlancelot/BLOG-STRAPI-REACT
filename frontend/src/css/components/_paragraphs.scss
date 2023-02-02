@@ -1,0 +1,21 @@
+p{
+    font-family: $font-primary-light;
+}
+
+.text-small{
+    font-size: smaller;
+    color:grey;
+}
+
+.card-post{
+
+}
+
+.single-post{
+    .content-frame{
+        p{
+            color:red;
+            line-height: 1.7rem;
+        }
+    }
+}

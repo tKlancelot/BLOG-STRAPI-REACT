@@ -1,0 +1,16 @@
+a{
+    font-family: $font-primary;
+}
+
+.navbar{
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color:$primary;
+                padding: 1rem;
+            }
+        }
+    }
+}

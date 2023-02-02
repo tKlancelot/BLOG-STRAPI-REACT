@@ -1,0 +1,39 @@
+h1,h2,h4{
+    font-weight: initial;
+    font-family: $font-primary;
+}
+
+.presentation{
+    &__body{
+        h1{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.single-post{
+    &__comments{
+        h2{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.single-post{
+    h4{
+        text-transform: uppercase;
+        letter-spacing: 0.02rem;
+        padding:0% 0% 2%;
+    }
+}
+
+.card-post{
+    &__body{
+        h2{
+            color:$primary;
+            &::first-letter{
+                text-transform: uppercase;
+            }
+        }
+    }
+}

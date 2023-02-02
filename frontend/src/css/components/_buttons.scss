@@ -1,0 +1,39 @@
+button{
+    cursor: pointer;
+    font-family: $font-primary-bold;
+}
+
+.card-post,.single-post{
+    &__footer{
+        button{
+            background-color:$primary;
+            border:unset;
+            color:#fff;
+            padding: 1rem 2rem;
+            text-transform: uppercase;
+            &:hover{
+                background-color:gainsboro;
+            } 
+        }
+    }
+}
+
+.pagination{
+    display: flex;
+    gap:1rem;
+    button{
+        background-color:whitesmoke;
+        border:unset;
+        color:#000;
+        padding: 0.75rem;
+        width: 10%;
+        text-transform: uppercase;
+        &:hover{
+            background-color:gainsboro;
+        } 
+    }
+    button:disabled{
+        background-color: gainsboro;
+        opacity: 0.25;
+    }
+}

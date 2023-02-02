@@ -1,0 +1,13 @@
+.navbar{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-end;
+    ul{
+        display: flex;
+        li{
+            height: 3.2vw;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

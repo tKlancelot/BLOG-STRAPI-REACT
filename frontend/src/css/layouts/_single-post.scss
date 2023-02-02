@@ -1,0 +1,42 @@
+.single-post{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    &__flap{
+        padding:1rem 0;
+        display: grid;
+        flex-basis: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap:1rem;
+        img{
+            height: 24vw;
+            width: 100%;
+            display: flex;
+        }
+    }
+    &__comments{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        &__header{
+            padding:1rem 0%;
+            width: 100%;
+            border-bottom: 1px solid gainsboro;
+            border-top: 1px solid gainsboro;
+            margin-bottom: 1rem;
+        }
+        &__left{
+            width: 40%;
+        }
+        &__right{
+            width: 60%;
+            padding: 0 1rem;
+        }
+    }
+    &__footer{  
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+    }
+}
