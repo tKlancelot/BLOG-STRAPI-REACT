@@ -1,3 +1,4 @@
+import axios from "axios";
 import { API_URL, URL_POSTS } from "../config.js";
 
 function findAll(){
@@ -27,6 +28,10 @@ function findOne(id){
 }
 
 
+function getComments(id){
+    return axios.get(`${URL_POSTS}/${id}/comments`).then((res) => res.data);
+}
+
 export default {
-    findAll,findOne
+    findAll,findOne,getComments
 }
