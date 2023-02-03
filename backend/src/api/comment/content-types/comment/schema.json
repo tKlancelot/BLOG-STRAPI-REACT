@@ -17,6 +17,12 @@
     },
     "Content": {
       "type": "richtext"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::post.post",
+      "inversedBy": "comments"
     }
   }
 }

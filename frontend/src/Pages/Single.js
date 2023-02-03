@@ -17,7 +17,6 @@ const Single = () => {
 
     const fetchOne = async () => {
         const data = await PostsAPI.findOne(id);
-        console.log(id);
         setTimeout(() => {
             setPost(data);
             setIsLoading(false);
